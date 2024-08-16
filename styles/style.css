@@ -176,6 +176,63 @@ h1 strong {
   border-top-left-radius: 10px;
 }
 
+.form-container {
+  padding: 4% 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 1.25rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.form-conteudo {
+  display: flex;
+  gap: 8px;
+  align-items: flex-end;
+}
+
+.form-conteudo > input {
+  border-radius: 6px;
+  border: none;
+  height: 1rem;
+  padding: 0.25rem;
+}
+
+.form-mensagem {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-mensagem > textarea {
+  width: 40rem;
+  height: 20rem;
+}
+
+.form-btn {
+  font-size: 1rem;
+  padding: 1% 2%;
+  border: none;
+  background-color: var(--cor-terciaria);
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: 0.5s background;
+}
+
+.for-btn:hover {
+  transition: 0.5s background;
+  background-color: #1aa0be;
+}
+
 .rodape {
   color: var(--cor-primaria);
   background-color: var(--cor-terciaria);
